@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Acadêmico</title>
+  <title>Gastos</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,7 +17,7 @@
     <div class="w3-bar w3-teal w3-large">
       <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-home"></i></a>
       <a href="#" class="w3-bar-item w3-button w3-padding">Cadastro</a>
-      <!-- <a href="#" class="w3-bar-item w3-button w3-padding">Tokyo</a> -->
+      <a href="#" class="w3-bar-item w3-button w3-padding">Tokyo</a>
     </div>
   </div>
 </body>
