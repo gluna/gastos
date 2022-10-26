@@ -7,7 +7,7 @@ private $pdo;
   */
  public function connect() {
      if ($this->pdo == null) {
-         $this->pdo = new \PDO("sqlite:db/combadd.sqlite");
+         $this->pdo = new \PDO("sqlite:db/gastos.sqlite");
      }
      return $this->pdo;
  }
