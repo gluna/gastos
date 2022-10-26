@@ -1,19 +1,13 @@
 <?php
-private $pdo;
 
- /**
-  * return in instance of the PDO object that connects to the SQLite database
-  * @return \PDO
-  */
- public function connect() {
-     if ($this->pdo == null) {
-         $this->pdo = new \PDO("sqlite:db/gastos.sqlite");
-     }
-     return $this->pdo;
- }
+function connectdb() {
+    //if ($this->pdo == null) {
+      $dir = getcwd();
+      $path = $dir . '/db/gastos.sqlite3';
+      //echo $path;
+      $db = new PDO('sqlite:' . $path);
+    //}
+    return $db;
+}
 
- public function connect2(){
-   $dir = 'sqlite:db/combadd.sqlite';
-   $dbh  = new PDO($dir) or die("cannot open the database");
- }
-  ?>
+?>
